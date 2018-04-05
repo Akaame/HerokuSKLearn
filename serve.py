@@ -27,4 +27,5 @@ def predict():
 def home():
     # arayuzu koddan ayiralim
     return render_template("home_template.html")
-app.run()
+if __name__ == "__main__":
+    app.run()
