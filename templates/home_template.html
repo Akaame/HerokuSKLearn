@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- W3Schools'daki Bootstrap Form örneği -->
+<html lang="tr">
+<head>
+  <title>İris Veri Kümesi Sınıflandırma</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>İris Veri Kümesi Sınıflandırma</h2>
+  <form action="predict" method="POST">
+    <div class="form-group">
+      <label for="img">Öznitelik 1</label>
+      <input class="form-control" id="data_1" placeholder="Öznitelik 1" name="data_1" >
+    </div>
+    <div class="form-group">
+        <label for="img">Öznitelik 2</label>
+        <input class="form-control" id="data_2" placeholder="Öznitelik 2" name="data_2" >
+    </div>
+    <div class="form-group">
+        <label for="img">Öznitelik 3</label>
+        <input class="form-control" id="data_3" placeholder="Öznitelik 3" name="data_3" >
+    </div>
+    <div class="form-group">
+        <label for="img">Öznitelik 4</label>
+        <input class="form-control" id="data_4" placeholder="Öznitelik 4" name="data_4" >
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
